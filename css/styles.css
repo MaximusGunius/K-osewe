@@ -35,7 +35,7 @@ body {
 /* Navigation */
 .navbar {
   padding: 1rem 0;
-  background: transparent;
+  background: rgba(250, 248, 245, 0.98);
   transition: all 0.4s ease;
 }
 
