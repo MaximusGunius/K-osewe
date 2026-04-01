@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Menu | K'Osewe Westlands</title>
+    <meta name="description" content="Browse K'Osewe Westlands menu: fresh fish, meat & chicken, traditional vegetables, sides, and drinks.">
+    <meta property="og:title" content="Menu | K'Osewe Westlands">
+    <meta property="og:description" content="Browse K'Osewe Westlands menu: fresh fish, meat & chicken, traditional vegetables, sides, and drinks.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-solid navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html#home">K'<span>Osewe</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="page-header-content">
+            <p class="text-uppercase mb-2" style="letter-spacing: 3px; color: var(--accent-light); font-size: 0.8rem;">Westlands, Nairobi</p>
+            <h1 class="serif">Our <span>Menu</span></h1>
+            <p class="lead mb-0">Traditional African comfort food</p>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <div class="menu-filters">
+        <div class="container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="fish">Fresh Fish</button>
+            <button class="filter-btn" data-filter="meat">Meat & Chicken</button>
+            <button class="filter-btn" data-filter="veg">Vegetables</button>
+            <button class="filter-btn" data-filter="sides">Sides & Extras</button>
+            <button class="filter-btn" data-filter="drinks">Drinks</button>
+        </div>
+    </div>
+
+    <!-- Menu Content -->
+    <section class="menu-section">
+        <div class="container">
+
+            <div class="price-note">
+                <p><strong>Average spend:</strong> KSh 1,000 - 1,500 per person | All prices in Kenyan Shillings</p>
+            </div>
+
+            <!-- Fresh Fish -->
+            <div class="menu-category" data-category="fish">
+                <h3 class="category-title serif">Fresh Fish</h3>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Wet Fried Tilapia</h4>
+                                <span class="price">KSh 950</span>
+                            </div>
+                            <p>Whole tilapia deep fried to crispy perfection, served with lime and kachumbari. Our signature dish.</p>
+                            <span class="tag popular">Popular</span>
+                            <span class="tag chef">Must Try</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Coconut Fish Curry</h4>
+                                <span class="price">KSh 1,100</span>
+                            </div>
+                            <p>Fresh fish simmered in rich coconut cream sauce with turmeric, garlic, and traditional spices.</p>
+                            <span class="tag popular">Guest Favorite</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Grilled Tilapia</h4>
+                                <span class="price">KSh 900</span>
+                            </div>
+                            <p>Whole fish grilled with lemon butter, served with your choice of side.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Fish Fillet</h4>
+                                <span class="price">KSh 850</span>
+                            </div>
+                            <p>Boneless tilapia fillet, lightly seasoned and pan-fried. Great for kids.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Meat & Chicken -->
+            <div class="menu-category" data-category="meat">
+                <h3 class="category-title serif">Meat & Chicken</h3>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Fried Beef</h4>
+                                <span class="price">KSh 850</span>
+                            </div>
+                            <p>Tender beef strips stir-fried with onions, tomatoes, and traditional spices.</p>
+                            <span class="tag popular">Popular</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Beef Stew</h4>
+                                <span class="price">KSh 800</span>
+                            </div>
+                            <p>Slow-cooked beef in rich gravy with carrots and potatoes. Homestyle comfort.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Grilled Chicken</h4>
+                                <span class="price">KSh 750</span>
+                            </div>
+                            <p>Half chicken marinated in herbs and grilled over open flame.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Chicken Stew</h4>
+                                <span class="price">KSh 700</span>
+                            </div>
+                            <p>Free-range chicken slow-cooked in traditional herb sauce.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Goat Fry</h4>
+                                <span class="price">KSh 900</span>
+                            </div>
+                            <p>Tender goat meat fried with onions, cilantro, and chili (weekends only).</p>
+                            <span class="tag chef">Weekend Special</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vegetables -->
+            <div class="menu-category" data-category="veg">
+                <h3 class="category-title serif">Traditional Vegetables</h3>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Mchicha (Spinach)</h4>
+                                <span class="price">KSh 350</span>
+                            </div>
+                            <p>Fresh spinach sautéed with onions, tomatoes, and a touch of cream.</p>
+                            <span class="tag veg">Vegetarian</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4> Pumpkin Leaves (Mrenda)</h4>
+                                <span class="price">KSh 300</span>
+                            </div>
+                            <p>Traditional pumpkin leaves cooked with milk and mild spices.</p>
+                            <span class="tag veg">Vegetarian</span>
+                            <span class="tag popular">Healthy</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Kunde (Cowpeas)</h4>
+                                <span class="price">KSh 300</span>
+                            </div>
+                            <p>Traditional cowpea leaves cooked to perfection with onions.</p>
+                            <span class="tag veg">Vegetarian</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Cabbage</h4>
+                                <span class="price">KSh 250</span>
+                            </div>
+                            <p>Fresh cabbage stir-fried with carrots and mild spices.</p>
+                            <span class="tag veg">Vegetarian</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sides & Extras -->
+            <div class="menu-category" data-category="sides">
+                <h3 class="category-title serif">Sides & Extras</h3>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Ugali</h4>
+                                <span class="price">KSh 150</span>
+                            </div>
+                            <p>Traditional Kenyan staple made from white maize flour.</p>
+                            <span class="tag veg">Vegetarian</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Chapati</h4>
+                                <span class="price">KSh 100</span>
+                            </div>
+                            <p>Soft, layered flatbread (per piece).</p>
+                            <span class="tag veg">Vegetarian</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Rice</h4>
+                                <span class="price">KSh 200</span>
+                            </div>
+                            <p>Steamed white rice or pilau (specify when ordering).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Masala Fries</h4>
+                                <span class="price">KSh 450</span>
+                            </div>
+                            <p>Crispy fries tossed in special masala seasoning.</p>
+                            <span class="tag popular">Popular Side</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Matoke</h4>
+                                <span class="price">KSh 350</span>
+                            </div>
+                            <p>Steamed green bananas, a East African favorite.</p>
+                            <span class="tag veg">Vegetarian</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Githeri</h4>
+                                <span class="price">KSh 400</span>
+                            </div>
+                            <p>Traditional mix of boiled maize and beans.</p>
+                            <span class="tag veg">Vegetarian</span>
+                            <span class="tag">Protein-rich</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drinks -->
+            <div class="menu-category" data-category="drinks">
+                <h3 class="category-title serif">Drinks</h3>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Fresh Passion Juice</h4>
+                                <span class="price">KSh 250</span>
+                            </div>
+                            <p>Freshly squeezed passion fruit juice.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Mango Juice</h4>
+                                <span class="price">KSh 250</span>
+                            </div>
+                            <p>Fresh mango blended with a hint of lime.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Tamarind Juice</h4>
+                                <span class="price">KSh 200</span>
+                            </div>
+                            <p>Sweet and sour traditional tamarind drink.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Soft Drinks</h4>
+                                <span class="price">KSh 150</span>
+                            </div>
+                            <p>Coca-Cola, Sprite, Fanta, Stoney.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Water (500ml)</h4>
+                                <span class="price">KSh 100</span>
+                            </div>
+                            <p>Still or sparkling mineral water.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="menu-card h-100">
+                            <div class="menu-card-header">
+                                <h4>Tea / Coffee</h4>
+                                <span class="price">KSh 150</span>
+                            </div>
+                            <p> Kenyan tea with milk or black coffee.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h4 class="serif mb-2">K'<span style="color: var(--accent);">Osewe</span></h4>
+            <p class="opacity-75 mb-2 small">Kenya Continental Hotel, Opposite Ibis Styles<br>Westlands, Nairobi</p>
+            <p class="opacity-75 small mb-1">+254 718 907 088</p>
+            <p class="opacity-50 small mb-3">Open Daily: 9:00 AM - 10:00 PM</p>
+            <a href="index.html#home" class="btn btn-outline-light btn-sm">Back to Home</a>
+        </div>
+    </footer>
+
+    <!-- Mobile CTA Bar -->
+    <div class="cta-bar" role="navigation" aria-label="Quick actions">
+        <div class="container">
+            <div class="cta-grid">
+                <a class="cta-btn primary" href="tel:+254718907088">Call</a>
+                <a class="cta-btn" href="https://www.google.com/maps/search/?api=1&query=Kenya%20Continental%20Hotel%2C%20Westlands%2C%20Nairobi" target="_blank" rel="noopener">Directions</a>
+                <a class="cta-btn" href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/menu.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+/* ============================================
+   JIMMY EATS - CUSTOMIZATION GUIDE
+   ============================================ */
+
+/* COLORS - Edit these in both files */
+:root {
+    --primary: #1a1a1a;        /* Main text color */
+    --accent: #c9a962;         /* Gold highlights */
+    --light: #faf9f7;          /* Background color */
+    --gray: #6b6b6b;           /* Secondary text */
+}
+
+/* To change the accent color (currently gold):
+   Replace #c9a962 with your brand color, e.g.:
+   - Restaurant Red: #c41e3a
+   - Sage Green: #87a878
+   - Navy Blue: #1e3a5f
+   - Burnt Orange: #cc5500
+*/
+
+/* FONTS */
+/* Currently using:
+   - Playfair Display (headings) - elegant serif
+   - Inter (body) - clean sans-serif
+
+   To change, update the Google Fonts link:
+   https://fonts.googleapis.com/css2?family=Your+Font&display=swap
+*/
+
+/* PRICING */
+/* Currently in Kenyan Shillings (KSh)
+   Search and replace "KSh" with your currency
+*/
+
+/* IMAGES */
+/* All images are from Unsplash
+   Replace URLs with your own:
+   - Hero image: ~line 320 in index.html
+   - Gallery images: ~line 380 in index.html
+   - Menu header: ~line 25 in menu.html
+*/
+
+/* CONTACT INFO */
+/* Search for these in index.html:
+   - "The Mirage, Chiromo Road" → Your address
+   - "+254 712 345 678" → Your phone
+   - "Westlands, Nairobi" → Your location
+*/

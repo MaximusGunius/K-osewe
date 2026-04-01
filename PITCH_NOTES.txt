@@ -1,0 +1,46 @@
+
+K'OSEWE WESTLANDS - WEBSITE PITCH SUMMARY
+=========================================
+
+CLIENT: K'Osewe Westlands
+LOCATION: Kenya Continental Hotel, Opposite Ibis Styles, Westlands
+TYPE: Authentic African / Comfort Food Restaurant
+
+KEY SELLING POINTS TO HIGHLIGHT:
+--------------------------------
+✓ 4.3/5 Google Rating (339+ reviews) - Social proof
+✓ Signature Wet Fried Tilapia - Hero dish
+✓ "Precolonial taste" - Unique positioning
+✓ Free parking + Wheelchair accessible
+✓ Quiet atmosphere - Good for business meetings
+✓ Delivery & Takeaway available
+
+WEBSITE FEATURES:
+-----------------
+🎨 African-inspired design (terracotta/earth tones)
+📱 Fully mobile-responsive
+⭐ Real customer reviews featured
+🍽️ Interactive menu with categories
+📊 Stats bar (rating, reviews, hours)
+📍 Google Maps-ready address
+📞 Click-to-call phone number
+
+PITCH ANGLE:
+------------
+"Your food has 4.3 stars on Google - your website should match that quality. 
+This site captures the authentic Kenyan experience diners love, while making 
+it easy for new customers to find you, see your menu, and visit."
+
+NEXT STEPS FOR CLIENT:
+----------------------
+1. Replace Unsplash images with actual K'Osewe photos
+2. Add real Google Maps embed
+3. Connect reservation/booking system
+4. Add online ordering if desired
+5. SEO optimization for "African food Westlands"
+
+FILES INCLUDED:
+---------------
+- kosewe_index.html (Landing page)
+- kosewe_menu.html (Full menu with filters)
+- CUSTOMIZATION.txt (Styling guide)
