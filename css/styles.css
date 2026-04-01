@@ -178,7 +178,7 @@ body {
 }
 
 .btn-primary-custom {
-  background: var(--accent);
+  background: var(--light);
   color: white;
   padding: 0.875rem 2rem;
   border: none;
